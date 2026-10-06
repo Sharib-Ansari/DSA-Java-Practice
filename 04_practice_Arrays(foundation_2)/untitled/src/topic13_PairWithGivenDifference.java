@@ -11,7 +11,7 @@ public class topic13_PairWithGivenDifference {
         int left = 0;
         int right = 1;
 
-        while (right <= arr.length){
+        while (left <= arr.length){
             int diff = arr[right] - arr[left];
 
             if (diff == difference){
